@@ -1,36 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>A Few Poems by Ogden Nash</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
 
-<h1>A Few Poems by Ogden Nash</h1>
-<h4>The Panther </h4>
-<p>The panther is like a leopard,
-    Except it hasn't been peppered.
-    Should you behold a panther crouch,
-    Prepare to say Ouch.
-    Better yet, if called by a panther,
-    Don't anther.</p>
-    <h4>Lines on Facing Forty</h4>
-    <p>I have a bone to pick with fate,
-        Come here and tell me girly,
-        Do you think my mind is maturing late,
-        Or simply rotting early.</p>
-        <h4>The Lama</h4>
-        <p>The one-l lama,
-            He's a priest.
-            The two-l llama,
-            He's a beast.
-            And I will bet
-            A silk pajama
-            There isn't any
-            Three-l lllama.</p>
-<h5>More about Ogden Nash</h5>
-<a href="http://en.wikipedia.org/wiki/Ogden_Nash)"  target="_blank">wiki</a>
+<body class="bg-gray-100 text-gray-900">
 
-<p>This is a paragraph.</p>
+    <!-- Header -->
+    <header class="flex justify-between items-center p-5 bg-blue-800 text-white shadow-lg">
+        <h1 class="text-2xl font-bold">Company</h1>
+        <nav>
+            <ul class="flex gap-8">
+                <li><a href="#" class="hover:text-yellow-500">Home</a></li>
+                <li><a href="#" class="hover:text-yellow-500">Our Work</a></li>
+                <li><a href="#" class="hover:text-yellow-500">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 bg-cover bg-center" style="background-image: url('https://typographyfall2016.wordpress.com/wp-content/uploads/2016/09/birkenstock-logo.png');">
+        <div class="absolute inset-0 bg-white bg-opacity-60 flex items-center justify-center text-center z-10">
+            <div class="p-6 rounded-lg shadow-xl">
+                <p class="text-lg text-gray-700 font-light mb-4">THAT IS RIGHT</p>
+                <h2 class="text-4xl text-blue-900 font-semibold">We make great things..</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="flex flex-col lg:flex-row items-center justify-between p-16 bg-white">
+        <div class="lg:w-2/3 mb-8 lg:mb-0">
+            <h2 class="text-3xl text-blue-900 font-bold mb-6">Our Amazing Team</h2>
+            <p class="text-lg text-gray-600 leading-relaxed">
+                We have a team of talented designers and developers working hard to bring great ideas to life.
+            </p>
+        </div>
+        <div class="flex flex-wrap gap-8 justify-center lg:w-1/3">
+            <!-- Team Member 1 -->
+            <div class="text-center p-6 bg-white rounded-xl shadow-lg transform transition hover:scale-105 hover:shadow-xl">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST_MevY3devxUcYrRpDpGzqmV2ZTy2Ru2brA&s" alt="Team Member 1" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <p class="font-semibold text-blue-900">Berkinstog</p>
+                <p class="text-sm text-gray-500">UX Designer</p>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="text-center p-6 bg-white rounded-xl shadow-lg transform transition hover:scale-105 hover:shadow-xl">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST_MevY3devxUcYrRpDpGzqmV2ZTy2Ru2brA&s" alt="Team Member 2" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <p class="font-semibold text-blue-900">Berkinstog</p>
+                <p class="text-sm text-gray-500">UX Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="bg-yellow-500 text-blue-900 p-10 rounded-lg shadow-xl mx-16 mt-8 text-center">
+        <p class="text-2xl font-italic">“Buy in our shop right now?!”</p>
+    </section>
 
 </body>
+
 </html>
